@@ -24,17 +24,17 @@ let s:base0B = '#ff00d7'
 let s:base0C = '#9aedfe' "123
 
 " let s:base0D = '#57c7ff' "81
-let s:base0D = '#d70000'
+let s:base0D = '#ff8787'
 
 let s:base0E = '#ff6ac1' "205
 let s:base0F = '#b2643c' "131
 
 " Normal mode
 "          [ guifg , guibg , ctermfg , ctermbg , opts ]
-let s:N1 = [ s:base00 , s:base0D , 235 , 160 ]           " [ color of body and line-info ]
-let s:N2 = [ s:base0D , s:base00 , 160 , 235 ]           " [ diffcount and file-info ]
-let s:N3 = [ s:base0D , s:base00 , 160 , 235 ]           " [ filename ]
-let s:N4 = [ s:base0D , 160 ]                            " [ buffer modified ]
+let s:N1 = [ s:base00 , s:base0D , 235 , 210 ]           " [ color of body and line-info ]
+let s:N2 = [ s:base0D , s:base00 , 210 , 235 ]           " [ diffcount and file-info ]
+let s:N3 = [ s:base0D , s:base00 , 210 , 235 ]           " [ filename ]
+let s:N4 = [ s:base0D , 210 ]                            " [ buffer modified ]
 
 " Insert mode
 let s:I1 = [ s:base00 , s:base0B , 235 , 200 ]
